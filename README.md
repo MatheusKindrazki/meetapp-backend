@@ -4,7 +4,7 @@
 
   - [Node](https://nodejs.org/en/download/);
   - [Yarn](https://yarnpkg.com/en/lang/pt-br/docs/install/) - *Opcional*;
-  - [Docker CE](:https://docs.docker.com/get-started/);
+  - [Docker CE](https://docs.docker.com/get-started/);
 
 ### Configurações:
 
