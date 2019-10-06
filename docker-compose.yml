@@ -1,0 +1,25 @@
+version: "3.3"
+
+services:
+  postgres:
+    image: postgres
+    restart: always
+    container_name: meetapp-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: docker
+
+  mongodb:
+    image: mongo
+    restart: always
+    container_name: meetapp-mongo
+    ports:
+      - "27017:27017"
+
+  redis:
+    image: redis:alpine
+    restart: always
+    container_name: meetapp-redis
+    ports:
+      - "6379:6379"
